@@ -55,7 +55,6 @@ const Game = () => {
                     updatePointsAndTurns(5);
                     setIsProcessing(false);
                 } else {
-
                     newShuffledClubs[newFlippedClubs[0].index].flipped = false;
                     newShuffledClubs[newFlippedClubs[1].index].flipped = false;
                     setShuffledClubs([...newShuffledClubs]);
