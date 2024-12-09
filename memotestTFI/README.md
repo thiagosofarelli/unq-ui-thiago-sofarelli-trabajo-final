@@ -1,8 +1,11 @@
-# React + Vite
+# Memotest TFI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Trabajo Final Integrador de Construcción de Interfaces de Usuario - por Thiago Ezequiel Sofarelli
 
-Currently, two official plugins are available:
+Pasos para correr el juego:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- cd memotestTFI
+- cd src
+- npm i
+- npm run dev
+
