@@ -1,6 +1,21 @@
 .board {
     display: grid;
     grid-gap: 10px;
-    max-width: 600px;
-    margin: 100px auto;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.board-4x4 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.board-6x6 {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.board-8x8 {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
 }

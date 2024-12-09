@@ -1,11 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Club.css';
 
-const Club = ({ club }) => {
-    const [flipped, setFlipped] = useState(false);
-
+const Club = ({ club, flipped, onClick }) => {
     return (
-        <div className="club">
+        <div className={`club ${flipped ? '' : 'flipped'}`} onClick={onClick}>
             <img src={club} alt="Club Image" className="club-image" />
         </div>
     );

@@ -28,11 +28,25 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: darkgray;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: black;
+  font-family: "Tahoma", serif;
+  margin: 0px;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 5px;
+}
+
+h3 {
+  font-weight: normal;
+  margin: 5px;
 }
 
 button {
@@ -42,27 +56,16 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: white;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 10px;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: black;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}

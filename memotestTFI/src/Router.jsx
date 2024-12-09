@@ -1,7 +1,7 @@
 import {Route, Routes} from 'react-router-dom';
-import Start from "./components/Start/Start.jsx";
-import Game from "./components/Game/Game.jsx";
-import End from "./components/End/End.jsx";
+import Start from "./views/Start/Start.jsx";
+import Game from "./views/Game/Game.jsx";
+import End from "./views/End/End.jsx";
 
 const RouterApp = () => (
     <Routes>
