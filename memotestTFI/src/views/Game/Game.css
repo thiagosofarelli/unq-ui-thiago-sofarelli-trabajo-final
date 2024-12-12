@@ -10,3 +10,12 @@
     display: flex;
     flex-direction: column;
 }
+
+.player-score{
+    color: black;
+}
+
+.player-turn{
+    font-weight: bold;
+    color: black;
+}

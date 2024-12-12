@@ -37,6 +37,11 @@ h1 {
   color: black;
   font-family: "Tahoma", serif;
   margin: 0px;
+  text-shadow:
+          -1px -1px 0 #fff,
+          1px -1px 0 #fff,
+          -1px  1px 0 #fff,
+          1px  1px 0 #fff;
 }
 
 h2 {
@@ -60,10 +65,13 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   margin: 10px;
+  color: cadetblue;
 }
 button:hover {
   border-color: black;
+  border-width: 2px;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

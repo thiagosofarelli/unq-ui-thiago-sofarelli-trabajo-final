@@ -14,7 +14,7 @@ const Start = () => {
     return (
         <div className="start-container">
             <h1>Memotest</h1>
-            <h2>¡Encuentra todas las parejas de fichas!</h2>
+            <h2>¡Encuentra todas las parejas de Clubes de Fútbol!</h2>
             <div className="memo-select-start">
                 <label className={"sizeLabel"} htmlFor="gameSize"><h3>Tamaño del tablero:</h3></label>
                 <select className="memo-select-gameSize" value={gameSize} onChange={(e) => setGameSize(e.target.value)}>

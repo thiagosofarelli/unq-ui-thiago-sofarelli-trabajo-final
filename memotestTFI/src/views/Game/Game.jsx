@@ -3,6 +3,7 @@ import Board from "../../components/Board/Board.jsx";
 import ClubImages from "../../assets/ClubImages.js";
 import { useEffect, useState } from "react";
 import "./Game.css";
+import 'animate.css';
 
 const Game = () => {
     const shuffleArray = a => {
@@ -88,14 +89,14 @@ const Game = () => {
                 {mode === '1' ? (
                     <>
                         <h3>Modo de juego: 1 Jugador</h3>
-                        <h3>Puntaje: {score}</h3>
+                        <h3 className={"player-score"}>Puntaje: {score}</h3>
                     </>
                 ) : (
                     <>
                         <h3>Modo de juego: 2 Jugadores</h3>
-                        <h3>Puntaje Jugador 1: {score}</h3>
-                        <h3>Puntaje Jugador 2: {scorePlayer2}</h3>
-                        <h3>Turno: Jugador {turn}</h3>
+                        <h3 className={"player-score"}>Puntaje Jugador 1: {score}</h3>
+                        <h3 className={"player-score"}>Puntaje Jugador 2: {scorePlayer2}</h3>
+                        <h3 key={turn} className={"player-turn animate__heartBeat"}>Turno: Jugador {turn}</h3>
                     </>
                 )}
             </div>

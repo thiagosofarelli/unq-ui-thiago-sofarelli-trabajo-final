@@ -5,9 +5,14 @@
     cursor: pointer;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    background-color: #44f0f0;
+    background-color: cadetblue;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
+.club:hover {
+    background-color: #44f0f0;
+}
 .club.flipped {
     transform: rotateY(180deg);
 }
