@@ -19,3 +19,15 @@
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
 }
+
+@media (max-width: 768px) {
+    .board {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .board {
+        max-width: 200px;
+    }
+}

@@ -19,3 +19,15 @@
     font-weight: bold;
     color: black;
 }
+
+@media (max-width: 768px) {
+    .game-container {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .game-container {
+        padding: 0.5rem;
+    }
+}
