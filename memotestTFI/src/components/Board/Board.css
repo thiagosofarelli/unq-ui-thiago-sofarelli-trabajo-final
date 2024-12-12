@@ -22,12 +22,12 @@
 
 @media (max-width: 768px) {
     .board {
-        max-width: 300px;
+        max-width: 400px;
     }
 }
 
 @media (max-width: 480px) {
     .board {
-        max-width: 200px;
+        max-width: 350px;
     }
 }
